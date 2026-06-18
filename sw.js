@@ -1,6 +1,6 @@
 // Schedule52 Field Tech Service Worker
 // Cache name: bump on every deployment that changes assets
-const CACHE_NAME = 's52-field-v1-netfirst';
+const CACHE_NAME = 's52-field-v2-netfirst';
 
 // Note: index.html is intentionally NOT precached. It is served network-first
 // (see fetch handler) so the installed PWA always picks up the current hashed
